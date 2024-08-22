@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width:470px){
+    *{
+        font-size: small;
+    }
+}
+/* Basic styles for MenuBar and CompanyInfoPage */
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .company-info-page {
+    padding: 20px;
+    font-size: 1.1em;
+  }
+  
+  .company-info-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .company-info-page p {
+    margin: 10px 0;
+  }
+  
